@@ -39,7 +39,7 @@
                   class="absolute inset-0 h-full w-full object-cover"
                 />
               
-                <div class="relative bg-gradient-to-t from-gray-950/50 to-gray-900/25 pt-40 sm:pt-56 lg:pt-72 from">
+                <div class="relative bg-gradient-to-t from-gray-950/50 to-gray-900/25 pt-40 sm:pt-[228px] lg:pt-[292px] from">
                   <div class="p-4 sm:p-6">
                       <h3 class="mt-0.5 text-lg text-white">¿Quiénes somos? o ¿Quien soy?</h3>
                     <p class="mt-2 line-clamp-4 text-sm/relaxed text-white/95">
@@ -55,7 +55,7 @@
                   class="absolute inset-0 h-full w-full object-cover"
                 />
               
-                <div class="relative bg-gradient-to-t from-gray-950/50 to-gray-900/25 pt-40 sm:pt-56 lg:pt-72 from">
+                <div class="relative bg-gradient-to-t from-gray-950/50 to-gray-900/25 pt-40 sm:pt-64 lg:pt-80 from">
                   <div class="p-4 sm:p-6">
                       <h3 class="mt-0.5 text-lg text-white">Mi trabajo</h3>
                     <p class="mt-2 line-clamp-4 text-sm/relaxed text-white/95">
