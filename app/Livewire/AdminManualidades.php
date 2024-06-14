@@ -47,5 +47,6 @@ class AdminManualidades extends Component
         }
         Storage::delete('public/manualidades/' . $manualidade->imagen);
         $manualidade->delete();
+        return redirect()->route('admin.manualidades');
     }
 }

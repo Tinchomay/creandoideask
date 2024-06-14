@@ -47,5 +47,6 @@ class AdminPinatas extends Component
         }
         Storage::delete('public/pinatas/' . $pinata->imagen);
         $pinata->delete();
+        return redirect()->route('admin.pinatas');
     }
 }
