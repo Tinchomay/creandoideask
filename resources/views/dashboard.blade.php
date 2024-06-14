@@ -128,7 +128,7 @@
                                         </div>
                                     </a>
                                     <div class="w-full">
-                                        <p class="text-xl font-medium text-gray-900 mb-2">{{'$ ' .  $pinata->precio . ' mxn' }}</p>
+                                        <p class="text-xl font-medium text-gray-900 mb-2">{{'$ ' .  $manualidade->precio . ' mxn' }}</p>
                                         <a class="inline-flex items-center justify-center px-4 py-2 bg-gray-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-gray-700 focus:bg-gray-700 active:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150 gap-2 w-full" id="8760" rel="nofollow noopener" href="{{'https://wa.me/5219331059534?text=Hola%20me%20interesa%20este%20articulo%20' . env('APP_URL') . '/manualidades/' . $manualidade->id }}" target="_blank">Me Interesa <img src="{{ asset('img/whatsapp.svg') }}" class="size-5 invert" alt="Logo whatsapp"></a>
                                     </div>
                                 </div>
