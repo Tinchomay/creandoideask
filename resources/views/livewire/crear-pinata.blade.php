@@ -10,12 +10,12 @@
                             accept="image/*"/>
             <x-input-error :messages="$errors->get('imagen')" class="mt-2" />
         </div>
-        {{--
+        
         {{-- Livewire nos da una respuesta al seleccionar la imagen y podemos aprovechar esa imagen para comprobar si existe --}}
+        {{--
         @if ($imagen)
         <div class=" mt-2 mb-4">
             Imagen:
-            {{-- Utilizamos el metodo temporaryUrl para obtener la direccion temporal de la imagen antes de que se suba al servidor --}}
             <img class=" max-h-40"  src="{{ $imagen->temporaryUrl() }}" alt="Imagen a subir">
         </div>
         @endif
