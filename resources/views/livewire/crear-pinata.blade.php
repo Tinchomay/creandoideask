@@ -10,6 +10,7 @@
                             accept="image/*"/>
             <x-input-error :messages="$errors->get('imagen')" class="mt-2" />
         </div>
+        {{--
         {{-- Livewire nos da una respuesta al seleccionar la imagen y podemos aprovechar esa imagen para comprobar si existe --}}
         @if ($imagen)
         <div class=" mt-2 mb-4">
@@ -18,6 +19,7 @@
             <img class=" max-h-40"  src="{{ $imagen->temporaryUrl() }}" alt="Imagen a subir">
         </div>
         @endif
+         --}}
         <div class="mb-4">
             <x-input-label for="titulo" :value="__('Titulo')" />
             <x-text-input id="titulo" class="block mt-1 w-full"
@@ -61,9 +63,11 @@
             </div>
         </div>
         <div class="flex justify-end mt-4 ">
+            @if ($imagen)
             <x-primary-button>
                 {{ __('Agregar') }}
             </x-primary-button>
+            @endif
         </div>
     </form>
 </div>
